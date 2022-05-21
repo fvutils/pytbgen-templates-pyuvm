@@ -1,6 +1,6 @@
 
 package:
-  name: pytbgen
+  name: pytbgen-templates-pyuvm
 
   dep-sets:
     - name: default
@@ -9,4 +9,6 @@ package:
       deps:
       - name: pytbgen
         url: https://github.com/fvutils/pytbgen.git
+      - name: mkdv
+        url: https://github.com/fvutils/mkdv.git
 
